@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Cambio de 'height' a 'min-height' */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Asegúrate de que el contenedor pueda expandirse */
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+p {
+    color: gray;
+    font-size: 21px;
+    text-align: left;
+}
+
+/* Estilo para el video */
+video {
+    width: 25%; /* Cambio de 'max-width' a 'width' */
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.footer-right {
+    text-align: right;
+    margin-right: 20px;
+    color: white;
+    font-size: 21px;
+}
+
